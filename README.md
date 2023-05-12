@@ -49,3 +49,9 @@ $ kubectl delete pod myfirstpod
 $ kubectl create -f replica.yml  
 $ kubectl get rs  
 
+$ kubectl create -f deployment.yml  
+$ kubectl get deploy  
+
+$ kubectl apply -f deployment.yml  
+$ kubectl get pods  
+
